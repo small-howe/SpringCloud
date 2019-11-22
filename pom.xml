@@ -11,6 +11,7 @@
         <module>srpingcloud-api01</module>
         <module>springcloud-provider01-dept-8001</module>
         <module>springcloud- consumer-dept-80</module>
+        <module>springcloud-eureka-7001</module>
     </modules>
 
     <!--  打包方式  因为是父项目 所以打包方式 是pom-->

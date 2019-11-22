@@ -9,6 +9,7 @@
         <module name="springcloud-provider01-dept-8001" />
         <module name="srpingcloud-api01" />
         <module name="springcloud- consumer-dept-80" />
+        <module name="springcloud-eureka-7001" />
         <module name="springboot-email" />
       </profile>
     </annotationProcessing>

@@ -9,21 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud- consumer-dept-80</artifactId>
+    <artifactId>springcloud-eureka-7001</artifactId>
 
-<!--消费者 实体类+web-->
+<!--导入包-->
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
         <dependency>
-            <groupId>com.tangwh</groupId>
-            <artifactId>srpingcloud-api01</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-<!--        支持web-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.1.RELEASE</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <version>1.4.6.RELEASE</version>
         </dependency>
         <!--        热部署-->
         <dependency>

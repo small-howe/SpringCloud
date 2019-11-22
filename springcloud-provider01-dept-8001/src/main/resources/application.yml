@@ -1,10 +1,12 @@
 server:
   port: 8001
+#MyBatis 配置
 mybatis:
   type-aliases-package: com.tangwh.pojo.Dept
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
 
+#Spring配置
 spring:
   application:
     name: srpingcloud-provider-dept
@@ -33,3 +35,9 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+#Eureka 配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
