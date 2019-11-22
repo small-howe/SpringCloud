@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-provider01-dept-8001" />
+        <module name="srpingcloud-api01" />
+        <module name="springcloud- consumer-dept-80" />
+        <module name="springboot-email" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-api" target="1.8" />
+      <module name="srpingcloud-provider-dept-8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-email" options="-parameters" />
+      <module name="springcloud-provider01-dept-8001" options="-parameters" />
+      <module name="srpingcloud-api01" options="-parameters" />
+    </option>
+  </component>
+</project>

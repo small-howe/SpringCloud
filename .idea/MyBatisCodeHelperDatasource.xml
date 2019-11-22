@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="activeDatabaseInfo">
+      <NewDatabaseInfo>
+        <option name="database" value="dept" />
+        <option name="databaseType" value="MySql" />
+        <option name="password" value="root" />
+        <option name="url" value="192.168.91.128:3306" />
+        <option name="userName" value="root" />
+      </NewDatabaseInfo>
+    </option>
+    <option name="databaseInfos">
+      <list>
+        <NewDatabaseInfo>
+          <option name="database" value="dept" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="root" />
+          <option name="url" value="192.168.91.128:3306" />
+          <option name="userName" value="root" />
+        </NewDatabaseInfo>
+      </list>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.tangwh.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/java" />
+        <option name="javaModelPackage" value="com.tangwh.pojo" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="srpingcloud-api01" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="srpingcloud-api01">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.tangwh.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/java" />
+                  <option name="javaModelPacakge" value="com.tangwh.pojo" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/java" />
+                  <option name="xmlPackage" value="mybatis.mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="dept:tbl_dept">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="TblDept" />
+                  <option name="moduleName" value="srpingcloud-api01" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mybatis.mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/srpingcloud-api01/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

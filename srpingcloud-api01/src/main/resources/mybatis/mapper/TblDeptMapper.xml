@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tangwh.mapper.TblDeptMapper">
+  <resultMap id="BaseResultMap" type="com.tangwh.pojo.TblDept">
+    <!--@mbg.generated-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="deptName" jdbcType="VARCHAR" property="deptname" />
+    <result column="locAdd" jdbcType="VARCHAR" property="locadd" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, deptName, locAdd
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from tbl_dept
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <!--@mbg.generated-->
+    delete from tbl_dept
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.tangwh.pojo.TblDept" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into tbl_dept (deptName, locAdd)
+    values (#{deptname,jdbcType=VARCHAR}, #{locadd,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.tangwh.pojo.TblDept" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into tbl_dept
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="deptname != null">
+        deptName,
+      </if>
+      <if test="locadd != null">
+        locAdd,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="deptname != null">
+        #{deptname,jdbcType=VARCHAR},
+      </if>
+      <if test="locadd != null">
+        #{locadd,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.tangwh.pojo.TblDept">
+    <!--@mbg.generated-->
+    update tbl_dept
+    <set>
+      <if test="deptname != null">
+        deptName = #{deptname,jdbcType=VARCHAR},
+      </if>
+      <if test="locadd != null">
+        locAdd = #{locadd,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.tangwh.pojo.TblDept">
+    <!--@mbg.generated-->
+    update tbl_dept
+    set deptName = #{deptname,jdbcType=VARCHAR},
+      locAdd = #{locadd,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.tangwh.mapper.DeptMapper">
+    <!-- 添加可以不用返回值-->
+    <insert id="addDept" parameterType="com.tangwh.pojo.Dept">
+   insert into tnl_dept(dept_name,db_source)
+   values (#{dept_name},DATABASE())
+    </insert>
+<select id="queryById" resultType="com.tangwh.pojo.Dept" parameterType="Integer">
+    select * from ssm_crud.tnl_dept where dept_id= #{deptId}
+
+</select>
+    <select id="queryAll" resultType="com.tangwh.pojo.Dept">
+         select * from ssm_crud.tnl_dept
+    </select>
+</mapper>
