@@ -1,0 +1,10 @@
+GET http://localhost:8001/dept/get/{id}
+
+###
+
+GET http://localhost:8001/dept/discovery
+
+<> 2019-11-25T104951.500.json
+
+###
+

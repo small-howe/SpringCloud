@@ -2,23 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad55f79-9ff9-4848-a459-4a39d0cc1b7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/tangwh/EurekaServer_7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/FeignDeptConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/tangwh/EurekaServer_7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/tangwh/EurekaServer_7003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/springcloud-provider-dept-hystrix-8001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProvider80001Hystirx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/SpringcloudProvider01Dept8002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/SpringcloudProvider01Dept8003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95e15ff5-fb59-42cd-8910-27020c7bd4b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95e15ff5-fb59-42cd-8910-27020c7bd4b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-email/target/classes/com/tangwh/service/ScheduledService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/target/classes/com/tangwh/service/ScheduledService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-email/target/classes/META-INF/springboot-email.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-email/target/test-classes/com/tangwh/SpringbootEmailApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/target/test-classes/com/tangwh/SpringbootEmailApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/DeptConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/DeptConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/config/ConfigBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/config/ConfigBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/test/java/com/tangwh/SpringcloudProvider01Dept8001ApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/SpringcloudProvider01Dept8001Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/SpringcloudProvider01Dept8001Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/test-classes/com/tangwh/SpringcloudProvider01Dept8001ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srpingcloud-api01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/SrpingcloudApi01Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/mapper/TblDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/pojo/TblDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/resources/mybatis/mapper/TblDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/SrpingcloudApi01Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/mapper/TblDeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/pojo/TblDept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/mybatis/mapper/TblDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/test-classes/META-INF/srpingcloud-api01.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/srpingcloud-provider-dept-8001/target/" />
@@ -29,6 +104,14 @@
     <ignored path="$PROJECT_DIR$/springcloud- consumer-dept-80/target/" />
     <ignored path="$PROJECT_DIR$/springboot-email/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-7003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider01-dept-8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider01-dept-8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-dept-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +152,18 @@
         <item name="ssm_crud: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="tnl_dept: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm_crud1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm_crud2: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -77,41 +172,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="252">
+                <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/AsyncService.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="-63">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -119,65 +196,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="294">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="77" column="40" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="40" />
-              <folding>
-                <element signature="e#13430#13431#0" expanded="true" />
-                <element signature="e#13474#13475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/ScheduledService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/tangwh/EurekaServer_7001.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-349">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-email/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="14" selection-start-line="14" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,6 +283,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jetty</find>
+      <find>test</find>
+      <find>gson</find>
+      <find>RunDa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,43 +294,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/DeptProvider_8001.java" />
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/controller/DeptConrtoller.java" />
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/service/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/service/DeptService.java" />
-        <option value="$PROJECT_DIR$/srpingcloud-api01/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/mapper/DeptMapper.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptService.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/95e15ff5-fb59-42cd-8910-27020c7bd4b2/console.sql" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/pojo/Dept.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/config/DruidConfig.java" />
-        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/controller/AsyncService.java" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/controller/AsyncController.java" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-email/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/SpringbootEmailApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/AsyncService.java" />
-        <option value="$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/ScheduledService.java" />
-        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/EurekaServer_7001.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/tangwh/EurekaServer_7001.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/tangwh/EurekaServer_7002.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/tangwh/EurekaServer_7002.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/tangwh/EurekaServer_7003.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/SpringcloudProvider01Dept8002Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/myRule.java" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/RandomRule.java" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRule.java" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/myRule/HoweRule.java" />
+        <option value="$PROJECT_DIR$/srpingcloud-api01/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/tangwh/EurekaServer_7001.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProviderHystrix8001.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProvider80001Hystirx.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/FeignDeptConsumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -257,7 +363,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-provider-dept-hystrix-8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-provider-dept-hystrix-8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -265,8 +381,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="569" />
-    <option name="y" value="269" />
+    <option name="x" value="-14" />
+    <option name="y" value="1" />
     <option name="width" value="1250" />
     <option name="height" value="870" />
   </component>
@@ -287,6 +403,32 @@
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-email" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-email" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-email" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-email" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud- consumer-dept-80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,6 +460,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud- consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myRule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -332,6 +484,36 @@
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud- consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud- consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud- consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud-eureka-7001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,6 +545,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -432,6 +624,67 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider01-dept-8002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -448,10 +701,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun Dashboard.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -460,18 +714,37 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24367817" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-8001\src\main\java\com\tangwh\service" />
-      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-8001\src\main\resources\mybatis\mapper" />
-      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-8001\src\main\resources" />
-      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-8001\src\main\java\com\tangwh" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tangwh.controller" />
+      <recent name="com.tangwh" />
+      <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\springcloud\springcloud-provider-dept-hystrix-8001\src\main\resources" />
+      <recent name="E:\IdeaProjects\springcloud\springcloud-provider-dept-hystrix-8001\src\main\java" />
+      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-hystrix-8001\src\main\resources" />
+      <recent name="E:\IdeaProjects\springcloud\springcloud-provider01-dept-hystrix-8001\src\main\java" />
+      <recent name="E:\IdeaProjects\springcloud\springcloud-consumer-dept-feign\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/dept/discovery" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -489,41 +762,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.17162967" />
+    <option name="contentProportion" value="0.2208" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootEmailApplicationTests.contextLoads2">
-    <configuration name="SpringbootEmailApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-email" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tangwh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tangwh" />
-      <option name="MAIN_CLASS_NAME" value="com.tangwh.SpringbootEmailApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootEmailApplicationTests.contextLoads2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-email" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tangwh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tangwh" />
-      <option name="MAIN_CLASS_NAME" value="com.tangwh.SpringbootEmailApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DeptConsumer">
     <configuration name="DeptConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud- consumer-dept-80" />
       <extension name="coverage">
@@ -537,19 +778,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeptProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="srpingcloud-provider-dept-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tangwh.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.springcloud.DeptProvider_8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EurekaServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-eureka-7001" />
       <extension name="coverage">
@@ -559,6 +787,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.EurekaServer_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer_7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-eureka-7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tangwh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.EurekaServer_7002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -577,6 +818,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudProvider01Dept8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider01-dept-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tangwh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.SpringcloudProvider01Dept8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudProvider80001Hystirx" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-provider-dept-hystrix-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tangwh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.SpringcloudProvider80001Hystirx" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SrpingcloudApi01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="srpingcloud-api01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tangwh.SrpingcloudApi01Application" />
@@ -586,11 +853,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringbootEmailApplicationTests.contextLoads2" />
-        <item itemvalue="Spring Boot.EurekaServer_7001" />
-        <item itemvalue="JUnit.SpringbootEmailApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.DeptConsumer" />
-        <item itemvalue="Spring Boot.DeptProvider_8001" />
+        <item itemvalue="Spring Boot.SpringcloudProvider01Dept8002Application" />
+        <item itemvalue="Spring Boot.EurekaServer_7002" />
+        <item itemvalue="Spring Boot.EurekaServer_7001" />
+        <item itemvalue="Spring Boot.SpringcloudProvider80001Hystirx" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +875,17 @@
       <workItem from="1574346143483" duration="2111000" />
       <workItem from="1574348277354" duration="180000" />
       <workItem from="1574348481685" duration="337000" />
-      <workItem from="1574383906625" duration="25582000" />
+      <workItem from="1574383906625" duration="25791000" />
+      <workItem from="1574576486786" duration="8000" />
+      <workItem from="1574643262950" duration="3958000" />
+      <workItem from="1574647613495" duration="19819000" />
+      <workItem from="1574729722602" duration="587000" />
+      <workItem from="1574731024858" duration="22171000" />
+      <workItem from="1574757171184" duration="1799000" />
+      <workItem from="1574759465834" duration="153000" />
+      <workItem from="1574769473968" duration="3289000" />
+      <workItem from="1574816451969" duration="341000" />
+      <workItem from="1574817280000" duration="1906000" />
     </task>
     <servers />
   </component>
@@ -633,14 +910,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33725000" />
+    <option name="totallyTimeSpent" value="87965000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6849315" visible="true" weight="0.184" />
-      <window_info id="Structure" order="1" sideWeight="0.31506848" side_tool="true" visible="true" weight="0.184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8235294" visible="true" weight="0.21226667" />
+      <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.5146667" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -649,26 +935,26 @@
       <window_info id="Web" order="7" sideWeight="0.50085765" side_tool="true" weight="0.22666667" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26837417" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40311804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32925472" />
-      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32850778" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.22135706" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42650333" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3040089" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32925472" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.2037862" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4992" weight="0.32850778" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32962137" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32962137" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.5008" side_tool="true" visible="true" weight="0.2572383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.11415525" visible="true" weight="0.2624" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.11415525" weight="0.288" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.21813333" />
@@ -681,433 +967,377 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/pojo/TblDept.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+    <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="190">
+          <caret line="159" column="36" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
+          <folding>
+            <element signature="e#8588#8589#0" expanded="true" />
+            <element signature="e#8632#8633#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE.jar!/org/springframework/boot/web/servlet/DynamicRegistrationBean.class">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8003/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="91" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot/2.2.1.RELEASE/spring-boot-2.2.1.RELEASE-sources.jar!/org/springframework/boot/web/servlet/DynamicRegistrationBean.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="37" />
+        <state relative-caret-position="84">
+          <caret line="13" selection-start-line="13" selection-end-line="93" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/org/eclipse/jetty/jetty-servlets/9.4.22.v20191022/jetty-servlets-9.4.22.v20191022.jar!/org/eclipse/jetty/servlets/WelcomeFilter.class">
+    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="273">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/support/http/WebStatFilter.class">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProviderHystrix8001.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="13713">
+          <caret line="653" column="3" selection-start-line="653" selection-start-column="3" selection-end-line="653" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/repository/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/support/http/WebStatFilter.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/maven/repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="60" column="78" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="78" />
+        <state relative-caret-position="210">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProvider80001Hystirx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/springcloud-provider-dept-hystrix-8001.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/controller/AsyncController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/ScheduledService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/config/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/SpringcloudProvider01Dept8002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/FeignDeptConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/srpingcloud-provider-dept-8001/src/main/java/com/tangwh/springcloud/controller/DeptController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="5" selection-start-line="21" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="37" />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/pojo/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/context/request/ServletRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="512" column="27" selection-start-line="512" selection-start-column="27" selection-end-line="512" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#1704#1705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="672" selection-start-line="672" selection-end-line="672" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27.jar!/org/apache/catalina/connector/RequestFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27.jar!/org/apache/catalina/connector/Request.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="836" selection-start-line="836" selection-end-line="836" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/maven/repository/org/springframework/boot/spring-boot-starter-mail/2.2.1.RELEASE/spring-boot-starter-mail-2.2.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="60" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/mail/MailSenderAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <folding>
-            <element signature="e#0#1989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/mail/MailSenderAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/spring-context-support/5.2.1.RELEASE/spring-context-support-5.2.1.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="59" column="79" selection-start-line="59" selection-start-column="71" selection-end-line="59" selection-end-column="79" />
-          <folding>
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/mapper/TblDeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" selection-start-line="14" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/tangwh/EurekaServer_7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <first_editor relative-caret-position="252">
+            <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="75" />
-          <folding>
-            <element signature="e#13957#13958#0" expanded="true" />
-            <element signature="e#14001#14002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/tangwh/EurekaServer_7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/SpringbootEmailApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/controller/AsyncController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/AsyncService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/java/com/tangwh/service/ScheduledService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-email/src/test/java/com/tangwh/SpringbootEmailApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.6.RELEASE/spring-cloud-netflix-eureka-client-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="77" column="40" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="40" />
-          <folding>
-            <element signature="e#13430#13431#0" expanded="true" />
-            <element signature="e#13474#13475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1131,6 +1361,18 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springcloud-provider01-dept-hystrix-8001</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24597701" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1145,10 +1387,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.springframework:spring-webmvc:5.1.5.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40882352" />
               </list>
             </option>
           </splitter-proportions>

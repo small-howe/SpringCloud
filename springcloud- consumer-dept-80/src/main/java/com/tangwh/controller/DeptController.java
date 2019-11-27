@@ -14,6 +14,7 @@ import java.util.List;
  * 消费者
  */
 @RestController
+
 public class DeptController {
 
     // 理解 消费者会不会有service 层
@@ -22,7 +23,11 @@ public class DeptController {
     @Autowired
     private RestTemplate restTemplate; //提供多种便捷访问远程Http 服务的方法 简单的restful 服务模板
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //Ribbon 我们这里注册的地址应该是一个便令 我们通过服务命来访问
+  //  private static final String REST_URL_PREFIX = "http://localhost:8001";
+   private static final String REST_URL_PREFIX = "http://SRPINGCLOUD-PROVIDER-DEPT";
+
+
 
     //调用 远程服务 提供者的接口 http://localhost:8001/dept/list
     @RequestMapping("/consumer/dept/get/{id}")

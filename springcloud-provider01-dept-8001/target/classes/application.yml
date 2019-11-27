@@ -1,11 +1,12 @@
 server:
   port: 8001
+#MyBatis 配置
 mybatis:
   type-aliases-package: com.tangwh.pojo.Dept
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
 
-#数据源配置
+#Spring配置
 spring:
   application:
     name: srpingcloud-provider-dept
@@ -34,3 +35,17 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+#Eureka 配置 服务注册到哪里?
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: springcloud-provider-dept8001  #修改Eureka默认描述信息
+
+
+#监控信息 info配置
+info:
+  app.name: tangwh-springcloud
+

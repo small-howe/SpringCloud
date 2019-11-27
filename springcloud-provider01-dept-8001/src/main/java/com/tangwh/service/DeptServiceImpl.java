@@ -27,6 +27,7 @@ public class DeptServiceImpl implements DeptService {
 
     @Override
     public List<Dept> queryAll() {
+        System.out.println("走了8001的请求");
         return deptMapper.queryAll();
     }
 }
