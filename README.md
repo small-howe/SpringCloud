@@ -1,5 +1,5 @@
 # SpringCloud 项目
-###springboot-emailf:功能:邮件发送  定时任务  异步请求先返回执行结果 后执行
+### springboot-emailf:功能:邮件发送  定时任务  异步请求先返回执行结果 后执行
 
 ### 消费者:springcloud- consumer-dept-80: Dept80 集成Eureka服务注册于发现 通过Ribbon实现负载均衡  通过RestTemplate调用Service层
 ### 消费者:springcloud-consumer-dept-feign:Dept80 集成Eureka 服务注册于发现  通过Feign调用 srpingcloud-api01 的service(有点问题)

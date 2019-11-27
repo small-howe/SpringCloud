@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad55f79-9ff9-4848-a459-4a39d0cc1b7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/FeignDeptConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/tangwh/EurekaServer_7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/tangwh/EurekaServer_7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/springcloud-provider-dept-hystrix-8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/SpringcloudProvider80001Hystirx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/SpringcloudProvider01Dept8002Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8002/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/SpringcloudProvider01Dept8003Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8003/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95e15ff5-fb59-42cd-8910-27020c7bd4b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95e15ff5-fb59-42cd-8910-27020c7bd4b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-email/target/classes/META-INF/springboot-email.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-email/target/test-classes/com/tangwh/SpringbootEmailApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-email/target/test-classes/com/tangwh/SpringbootEmailApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/DeptConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/DeptConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/DeptConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/config/ConfigBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/config/ConfigBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud- consumer-dept-80/target/classes/com/tangwh/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/SpringcloudProvider01Dept8001Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/java/com/tangwh/service/DeptServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/src/test/java/com/tangwh/SpringcloudProvider01Dept8001ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/SpringcloudProvider01Dept8001Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/SpringcloudProvider01Dept8001Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/controller/DeptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/mapper/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/classes/com/tangwh/service/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider01-dept-8001/target/test-classes/com/tangwh/SpringcloudProvider01Dept8001ApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srpingcloud-api01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/SrpingcloudApi01Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/mapper/TblDeptMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/pojo/TblDept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/src/main/resources/mybatis/mapper/TblDeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/SrpingcloudApi01Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/mapper/TblDeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/com/tangwh/pojo/TblDept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/classes/mybatis/mapper/TblDeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srpingcloud-api01/target/test-classes/META-INF/srpingcloud-api01.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/srpingcloud-provider-dept-8001/target/" />
@@ -176,10 +85,40 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <first_editor relative-caret-position="21">
+                <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,15 +151,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud- consumer-dept-80/src/main/java/com/myRule/HoweRandomRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-provider01-dept-8001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-349">
@@ -243,30 +173,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/tangwh/controller/DeptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/srpingcloud-api01/src/main/java/com/tangwh/service/DeptClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" selection-start-line="14" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -632,6 +538,79 @@
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tangwh" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-dept-hystrix-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="srpingcloud-api01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -885,8 +864,16 @@
       <workItem from="1574759465834" duration="153000" />
       <workItem from="1574769473968" duration="3289000" />
       <workItem from="1574816451969" duration="341000" />
-      <workItem from="1574817280000" duration="1906000" />
+      <workItem from="1574817280000" duration="2239000" />
     </task>
+    <task id="LOCAL-00001" summary="集成Feign服务调用和集成Hystrix服务熔断">
+      <created>1574819394877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574819394878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -910,7 +897,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87965000" />
+    <option name="totallyTimeSpent" value="88298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,14 +930,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32850778" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.22135706" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3040089" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4992" visible="true" weight="0.3040089" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4992" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49866667" weight="0.32850778" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.5008" side_tool="true" visible="true" weight="0.2572383" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.5008" side_tool="true" visible="true" weight="0.3040089" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -966,6 +953,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="集成Feign服务调用和集成Hystrix服务熔断" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成Feign服务调用和集成Hystrix服务熔断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,13 +1067,6 @@
     <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/springcloud-provider-dept-hystrix-8001.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/config/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1139,23 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1302,11 +1269,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/tangwh/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <first_editor relative-caret-position="21">
+            <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
