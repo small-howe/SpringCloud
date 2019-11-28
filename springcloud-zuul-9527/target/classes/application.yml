@@ -1,0 +1,28 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:
+      #对应的集群地址
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      # 实例Id
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true #隐藏真实ip 地址
+
+
+info:
+  app.name: small-howe
+  compay.name: com.tangwh # 公司名称
+
+# 网关的配置  #http://127.0.0.7:9527/mydept/dept/get/1
+zuul:
+  routes:
+    mydept.serviceId: srpingcloud-provider-dept  #原路径服务ID
+    mydept.path: /mydept/**          #新路径服务id
+  ignored-services: "*"  #不能使用这个路径访问了  ignored:忽略  隐藏全部
+  prefix: /howe           #设置公共的访问前缀 访问前缀

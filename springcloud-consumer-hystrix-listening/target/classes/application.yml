@@ -1,0 +1,3 @@
+server:
+  port: 9001
+#  pom  还需引入 actuator.jar

@@ -1,0 +1,4 @@
+# 用户级别的
+spring:
+  application:
+    name: springcloud-config-client-3355
