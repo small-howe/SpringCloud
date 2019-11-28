@@ -11,6 +11,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springcloud-config-server-3314/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider01-dept-hystrix-8001/pom.xml" />
       </set>
     </option>

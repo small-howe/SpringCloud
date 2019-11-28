@@ -18,6 +18,14 @@
         <module>springcloud-provider01-dept-8003</module>
         <module>springcloud-consumer-dept-feign</module>
         <module>springcloud-provider-dept-hystrix-8001</module>
+        <module>springcloud-consumer-hystrix-listening</module>
+        <module>springcloud-zuul-9527</module>
+        <module>springcloud-config-server-3344</module>
+        <module>springcloud-config-client-3355</module>
+        <module>springcloud-config-eureka-7001</module>
+        <module>springcloud-config-dept-8001</module>
+
+
     </modules>
 
     <!--  打包方式  因为是父项目 所以打包方式 是pom-->
@@ -48,10 +56,11 @@
             </dependency>
             <!--         导入SpringBoot -->
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-security</artifactId>
-                <version>2.1.4</version>
-                <type>pom</type>
+                <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-dependencies</artifactId>
+                    <version>2.1.4.RELEASE</version>
+                    <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <!--            链接数据库-->

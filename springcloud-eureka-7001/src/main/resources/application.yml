@@ -12,3 +12,5 @@ eureka:
       #单机:http://${eureka.instance.hostname}:${server.port}/eureka/
       #集群 需要挂载别的 7002  7003
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+#开启Feign.hystrix服务降级

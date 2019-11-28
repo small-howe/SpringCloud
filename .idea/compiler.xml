@@ -6,29 +6,41 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-eureka-7002" />
-        <module name="srpingcloud-api01" />
-        <module name="springcloud-consumer-dept-feign" />
-        <module name="springcloud-provider01-dept-8001" />
-        <module name="springboot-email" />
-        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-config-client-3355" />
         <module name="springcloud- consumer-dept-80" />
-        <module name="springcloud-provider-dept-hystrix-8001" />
+        <module name="springcloud-config-server-3344" />
         <module name="springcloud-provider01-dept-8003" />
+        <module name="springcloud-config-dept-8001" />
+        <module name="springcloud-provider01-dept-8001" />
+        <module name="springcloud-consumer-dept-feign" />
+        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-provider01-dept-8002" />
+        <module name="springcloud-zuul-9527" />
+        <module name="srpingcloud-api01" />
+        <module name="springcloud-consumer-hystrix-listening" />
+        <module name="springcloud-config-eureka-7001" />
+        <module name="springboot-email" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-config-server-3314" target="1.8" />
+      <module name="springcloud-config-server-3315" target="1.8" />
       <module name="springcloud-provider01-dept-hystrix-8001" target="1.8" />
+      <module name="springcloud_demo_hystrix_listening" target="1.8" />
       <module name="srpingcloud-provider-dept-8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-email" options="-parameters" />
+      <module name="springcloud-config-server-3315" options="-parameters" />
+      <module name="springcloud-config-server-3344" options="" />
       <module name="springcloud-provider01-dept-8001" options="" />
+      <module name="springcloud_demo_hystrix_listening" options="-parameters" />
       <module name="srpingcloud-api01" options="-parameters" />
     </option>
   </component>

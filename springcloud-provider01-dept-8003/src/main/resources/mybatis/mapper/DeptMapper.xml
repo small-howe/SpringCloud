@@ -10,10 +10,10 @@
    values (#{dept_name},DATABASE())
     </insert>
 <select id="queryById" resultType="com.tangwh.pojo.Dept" parameterType="Integer">
-    select * from ssm_crud2.tnl_dept where dept_id= #{deptId}
+    select * from tnl_dept where dept_id= #{deptId}
 
 </select>
     <select id="queryAll" resultType="com.tangwh.pojo.Dept">
-         select * from ssm_crud2.tnl_dept
+         select * from tnl_dept
     </select>
 </mapper>

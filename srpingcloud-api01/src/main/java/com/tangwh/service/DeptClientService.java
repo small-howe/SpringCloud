@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 
-@FeignClient(value = "srpingcloud-provider-dept")//只要写这个注解 就可以被服务直接调用  value 代表的是服务名
+@FeignClient(value = "srpingcloud-provider-dept",fallbackFactory = DeptClientServiceFallbackFactory.class)//只要写这个注解
+// 就可以被服务直接调用  value 代表的是服务名
 @Component
 public interface DeptClientService {
 
