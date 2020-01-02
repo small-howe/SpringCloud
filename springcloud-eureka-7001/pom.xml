@@ -12,6 +12,7 @@
     <artifactId>springcloud-eureka-7001</artifactId>
 
 <!--导入包-->
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
         <dependency>
