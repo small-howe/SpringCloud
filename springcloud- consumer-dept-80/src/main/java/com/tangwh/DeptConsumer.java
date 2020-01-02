@@ -16,6 +16,7 @@ import org.springframework.context.annotation.ComponentScan;
 // 在微服务启动的时候 就能加载我们自定一的Ribbon类
 @RibbonClient(name = "SRPINGCLOUD-PROVIDER-DEPT",configuration = HoweRule.class) //给那个id 服务自定义负载均衡轮询机制  从而让他生效
 
+
 public class DeptConsumer {
     public static void main(String[] args) {
         SpringApplication.run(DeptConsumer.class, args);
