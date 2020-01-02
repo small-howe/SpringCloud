@@ -14,6 +14,7 @@ public class AsyncController {
     @Autowired
     AsyncService asyncService;
 
+
     @RequestMapping("/hello")
    public String hello(){
       asyncService.hello(); //停止三秒转圈3秒
