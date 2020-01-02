@@ -25,7 +25,6 @@
         <module>springcloud-config-eureka-7001</module>
         <module>springcloud-config-dept-8001</module>
 
-
     </modules>
 
     <!--  打包方式  因为是父项目 所以打包方式 是pom-->
