@@ -20,7 +20,6 @@ public class SpringcloudProvider01Dept8001Application {
         SpringApplication.run(SpringcloudProvider01Dept8001Application.class, args);
     }
 
-
     /**
      * 配合Hystrix 监控使用
      * @return
