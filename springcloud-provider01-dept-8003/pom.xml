@@ -27,7 +27,6 @@
             <version>2.1.4.RELEASE</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.tangwh</groupId>
             <artifactId>srpingcloud-api01</artifactId>
