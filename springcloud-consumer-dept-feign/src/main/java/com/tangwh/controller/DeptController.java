@@ -22,8 +22,6 @@ public class DeptController {
     //RestTemplate.... 供我们直接调用  注册在Spring中
     //参数(url，实体：map.Class<T>,reposeType)
 
-
-
     @Autowired
      DeptClientService service = null;
 
